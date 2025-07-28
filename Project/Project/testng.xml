@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <listeners>
+        <listener class-name="Listeners"></listener>
+    </listeners>
+    <test preserve-order="true" name="Project">
+    <classes>
+        <class name="API.UserTests"></class>
+        <class name="UI.Tests.SignUpFunctionality"></class>
+        <class name="UI.Tests.SignInFunctionality"></class>
+        <class name="UI.Tests.CreateOrderFunctionality"></class>
+    </classes>
+</test>
+</suite>
